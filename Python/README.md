@@ -106,32 +106,31 @@ Para una entrevista de desarrollador Python junior o trainee, aquí te dejo algu
        - Inmutable: Una vez creada, no se puede modificar (no puedes agregar, eliminar o cambiar elementos). Se define con paréntesis ()
          
 2.  ¿Cómo manejas errores en Python?
-    -En Python, los errores o excepciones se manejan utilizando los bloques try-except. Puedes capturar errores específicos y evitar que el programa se detenga de forma abrupta.
+   - En Python, los errores o excepciones se manejan utilizando los bloques try-except. Puedes capturar errores específicos y evitar que el programa se detenga de forma abrupta.
 
 3.  ¿Qué son las comprensiones de listas (list comprehensions)?
    - Las comprensiones de listas son una manera concisa de crear listas en Python a partir de una secuencia o iterable, aplicando alguna operación a cada elemento y/o filtrando elementos según alguna condición.
 
 4.  ¿Qué es PEP 8 y por qué es importante?
-    - PEP 8 es una guía de estilo para escribir código Python que establece convenciones sobre cómo formatear el código para que sea más legible y consistente entre desarrolladores.
+   - PEP 8 es una guía de estilo para escribir código Python que establece convenciones sobre cómo formatear el código para que sea más legible y consistente entre desarrolladores.
 
- Algunos puntos clave de PEP 8 incluyen:
-
-- Indentación: Usar 4 espacios por nivel de indentación.
-- Longitud de línea: No debe exceder de 79 caracteres.
-- Nombres de variables: Nombres en minúsculas y con guiones bajos para separar palabras (mi_variable).
-- Comentarios: Los comentarios deben ser claros y descriptivos.
-- Espacios: No debe haber espacios innecesarios alrededor de operadores, comas o paréntesis.
- Es importante porque facilita la lectura y mantenimiento del código, especialmente cuando múltiples desarrolladores 
- colaboran en el mismo proyecto.
+- Algunos puntos clave de PEP 8 incluyen:
+    - Indentación: Usar 4 espacios por nivel de indentación.
+    - Longitud de línea: No debe exceder de 79 caracteres.
+    - Nombres de variables: Nombres en minúsculas y con guiones bajos para separar palabras (mi_variable).
+    - Comentarios: Los comentarios deben ser claros y descriptivos.
+    - Espacios: No debe haber espacios innecesarios alrededor de operadores, comas o paréntesis.
+     Es importante porque facilita la lectura y mantenimiento del código, especialmente cuando múltiples desarrolladores 
+     colaboran en el mismo proyecto.
 
 5.  ¿Puedes explicar el concepto de herencia en Python?
-   - La herencia es un principio de la Programación Orientada a Objetos (OOP) que permite crear una nueva clase basada en una clase existente, reutilizando el código.
+   - La herencia es un principio de la Programación Orientada a Objetos (POO) que permite crear una nueva clase basada en una clase existente, reutilizando el código.
 
 - La clase existente se llama clase padre o superclase.
 - La nueva clase se llama clase hija o subclase.
 
 6.  ¿Cómo crearías una API REST simple en Python?
-- Una API REST se puede crear fácilmente en Python utilizando un framework como Flask. Aquí un ejemplo básico de una API REST que permite manejar usuarios:
+- Una API REST se puede crear fácilmente en Python utilizando un framework como Flask. Aquí un ejemplo básico de una API - - REST que permite manejar usuarios:
 
        from flask import Flask, jsonify, request
         
@@ -180,7 +179,7 @@ Para una entrevista de desarrollador Python junior o trainee, aquí te dejo algu
     - git checkout: Cambiar de una rama a otra.
   
 8.  ¿Cómo gestionarías un conflicto de merge en Git?
-  -Un conflicto de merge ocurre cuando dos ramas modifican la misma parte de un archivo de manera incompatible. Para resolverlo:
+  - Un conflicto de merge ocurre cuando dos ramas modifican la misma parte de un archivo de manera incompatible. Para resolverlo:
   1. Realiza el merge:
 
          git merge rama-feature
